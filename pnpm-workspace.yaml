@@ -1,0 +1,15 @@
+onlyBuiltDependencies:
+  - electron
+  - electron-winstaller
+  - esbuild
+  - '@electron/rebuild'
+
+ignoredBuiltDependencies:
+  - better-sqlite3
+
+blockExoticSubdeps: false
+
+allowBuilds:
+  better-sqlite3: false
+  electron: true
+  esbuild: true
